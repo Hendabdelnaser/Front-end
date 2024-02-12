@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ 
+}
+
+.box{
+     width:600px;
+     height:400px;
+     border:solid 1px black;
+     background-color: white;
+     border-radius: 10px;
+     padding: 20px;
+     box-shadow:4px 4px  black ;
+     margin-left: auto;
+     margin-right:auto ; 
+     margin-top: 120px;
+     transition-duration: 1s;
+    
+    }
+    span{
+        font-weight: 600;
+        font-size: 50px;
+         color: #afaaaa; 
+         padding-right :10px ;
+         display: inline-block;
+    }
+    .box p{
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+    }
+    div:hover{
+        border:solid 1px blueviolet;
+        box-shadow:4px 4px blueviolet ;
+        transition-duration: 2s;
+        span{
+            transition-duration: 2s;
+            color:blueviolet ;
+        }
+    }
+    table{
+
+         width:200px;
+         margin-left: auto;
+         margin-right: auto;
+    }
+   table th  {
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
+  
+   }
+   table td {
+    padding: 10px;
+  
+   }
+ 
+  
